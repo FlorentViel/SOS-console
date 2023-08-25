@@ -1,0 +1,107 @@
+/* telephone-background entente */
+
+#background-phone-1 {
+    background: url('../../images/telephone.jpg');
+    height: auto;
+}
+
+/* reglage background */
+
+#content {
+    padding-bottom: 5vw;
+}
+
+/* form-search-page */ 
+
+.form-search-page {
+    margin: 2vw 5vw 2vw 5vw;
+
+}
+
+/* seperation entre les images */
+
+.figure {
+    border: 0.2vw solid black;
+    padding: 2vw;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    width: 16rem;
+}
+
+/* taille image */
+
+.img {
+    width: 100%;
+    max-width: 13rem;
+    height: 13rem;
+}
+
+/* style caption */
+
+.caption-style {
+    font-size: calc(0.6rem + 1vw);
+    text-align: center;
+    color: #000000;
+    position: relative;
+}
+
+
+
+
+/* Media query */
+
+@media (max-width: 1200px) { 
+
+    .figure {
+        width: 11rem;
+        margin-top: 1rem;
+    }
+
+    .img {
+        width: 100%;
+        max-width: 11rem;
+        height: 9rem;
+    }
+}
+
+
+@media (max-width: 767.98px) { 
+
+    .figure {
+        width: 8rem;
+    }
+
+    .img {
+        width: 100%;
+        max-width: 8rem;
+        height: 6rem;
+    }
+
+    .caption-style {
+        font-size: 0.9rem;
+        text-align: center;
+        color: #000000;
+        position: relative;
+    }
+
+}
+
+@media (max-width: 575.98px) { 
+
+    .figure {
+        font-size: 0.8rem;
+    }
+
+    .caption-style {
+        font-size: 0.8rem;
+        text-align: center;
+        color: #000000;
+        position: relative;
+    }
+
+}
+
+
+
+
+

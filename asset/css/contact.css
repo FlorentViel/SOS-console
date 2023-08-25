@@ -1,0 +1,76 @@
+/* background-formulaire */
+
+#block-formulaire {
+    background: no-repeat content-box #FFFFFF;
+    border: 1px solid black;
+    margin: auto;
+    height: auto;
+    width: 60vw;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+
+/* formulaire de contact */
+
+#formulaire {
+    padding: 0.8vw;
+}
+
+/* input style */
+
+.form-style {
+    background-color: #D7D7D7;
+}
+
+/* label */
+
+/* comments-label */
+
+.comments-label {
+    padding: 0 !important;
+    left: auto !important;
+}
+
+
+/* Media query */
+
+
+@media (max-width: 991.98px) { 
+    #block-formulaire {
+        width: 90vw;
+    }
+ }
+
+@media (max-width: 767.98px) { 
+
+    #block-formulaire {
+        width: 90vw;
+    }
+
+    /* Titre "laissez un message */
+
+    #send-note {
+        font-weight: 700;
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+
+ }
+
+@media (max-width: 575.98px) {
+    #block-formulaire {
+        width: 95vw;
+    }
+
+    #formulaire {
+        padding: 0;
+    }
+    
+    #send-note {
+        font-weight: 700;
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+    }
+}

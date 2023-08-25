@@ -1,0 +1,136 @@
+/* New */
+
+#new {
+    background: #00BFB2;
+    color: #ffffff;
+}
+
+/* carousel-item */
+
+.carousel-item {
+    max-height: calc(30rem + 20vw);
+}
+
+
+/* choice-bloc */
+
+
+.img-console:hover {
+
+    background: linear-gradient(0deg, rgba(60, 60, 60, 0), rgba(60, 60, 60, 0));
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    opacity: 100%;
+
+
+}
+
+
+/* card */
+
+/*card Image  */
+
+
+.bloc-card {
+    max-width: 22rem;
+    width: 70vw;
+    -webkit-mask-image: -webkit-gradient(
+      linear, left top, right bottom, 
+      color-stop(1.00,rgba(60,60,60,0.8)));
+}
+
+.bloc-card:hover{
+    max-width: 22rem;
+    width: 70vw;
+    -webkit-mask-image: -webkit-gradient(
+      linear, left top, right bottom, 
+      color-stop(1.00,  rgba(0,0,0,1)));
+}
+
+
+.card-group {
+    display: flex;
+    
+}
+
+.card-group button {
+    max-width: 80%;
+}
+
+.choice-card .card {
+    margin: 2rem 0rem 2rem 0;
+}
+
+.choice-card .card {
+    flex-direction: initial;
+}
+
+.choice-card .card .card-body span
+    {
+    background-color:rgba(0,0,0,0.8);
+    }
+
+.choice-card .card-body {
+    border: 11px solid #00BFB2;
+}
+
+.card-link:hover{
+    text-decoration: underline white;
+}
+
+.choice-card .card-font {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.choice-card .card-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 0.1em;
+    
+    color: #FFFFFF;
+}
+
+/* btn */
+
+.btn-no-style, button, input[type="submit"], input[type="reset"] {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+
+
+/* Media query */
+
+@media (max-width: 991.98px) { 
+
+    .card-group {
+        justify-content: center !important;
+        flex-flow:row wrap;
+
+    }
+ }
+
+@media (max-width: 575.98px) { 
+
+    .card-group {
+        flex-flow:row wrap;
+    }
+
+}
